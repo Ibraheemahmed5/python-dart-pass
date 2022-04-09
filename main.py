@@ -1,19 +1,13 @@
-def num(y):
-    if (y % 2) == 0:
-        print(y)
-        print(" is even")
+x = []
+i = 0
+num = int(input("Enter X Value: "))
+while i < num:
+    num1 = int(input("Enter a Number: "))
+    i += 1
+    x += [num1]
+for n in x:
+
+    if (n % 2) == 0:
+        print("{0} is Even".format(n))
     else:
-        print(y)
-        print(" is odd")
-
-
-x = int(input("Enter a Value: "))
-
-if x <= 10 and x > 0:
-    list = []
-    for n in range(x):
-        numbers = int(input("Enter a  Number: "))
-        list.append(numbers)
-        num(list[n])
-else:
-    print("out of the range")
+        print("{0} is Odd".format(n))
