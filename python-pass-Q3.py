@@ -13,4 +13,4 @@ for n in x:
         print("{0} is Odd".format(n))
 
 else:
-    print("OUT OF THE RANGE")
+    print("OUT OF THE RANGfdsfsdfsdfsdfE")
